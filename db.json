@@ -1,9 +1,287 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "user_uuid": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
+      "username": "Paul Pessoa",
+      "handle": "paulmspessoa",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/paulmspessoa",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/paulmspessoa",
+      "followers": [
+        {
+          "user_uuid": "cfc41fa5-210d-4fdb-a9f0-18bc78284590"
+        },
+        {
+          "user_uuid": "cd595347-9fef-4216-8ae2-bdd74f065dc7"
+        },
+        {
+          "user_uuid": "aa2902ac-b250-48bd-af4d-0b8dcc141b8d"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "7d63b079-25db-4014-8f1f-91d3fd20fc17",
+      "username": "João Silva",
+      "handle": "joaosilva",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/joaosilva",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/joaosilva",
+      "followers": [
+        {
+          "user_uuid": "80eae126-d01a-4d46-a1db-0c8e7abbebbb"
+        },
+        {
+          "user_uuid": "77ff4c36-4db4-4186-a3af-5e33e6cc6855"
+        },
+        {
+          "user_uuid": "52e5b22e-1c37-45d3-8b6e-5f2b75bbd51f"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_uuid": "2309c9be-e1bd-4e42-bafc-847486338f6c",
+      "username": "Maria Santos",
+      "handle": "mariasantos",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/mariasantos",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/mariasantos",
+      "followers": [
+        {
+          "user_uuid": "f9830e3b-d418-4e9e-b7e1-48f058d0a499"
+        },
+        {
+          "user_uuid": "827bc0b3-42fd-4919-a0e2-1beab1f6487c"
+        },
+        {
+          "user_uuid": "a52c5eb4-68fd-4a47-9a43-bef72a48c6e4"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "user_uuid": "",
+      "username": "Ana Oliveira",
+      "handle": "anaoliveira",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/anaoliveira",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/anaoliveira",
+      "followers": [
+        {
+          "user_uuid": "7a614638-85b5-42ad-93e0-3f2bbd1c53f3"
+        },
+        {
+          "user_uuid": "6516a982-529d-4ad9-82a7-7b56b731a858"
+        },
+        {
+          "user_uuid": "d76e9ea7-b719-4bc2-a8c7-17ff8e2daa5e"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "user_uuid": "",
+      "username": "Pedro Almeida",
+      "handle": "pedroalmeida",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/pedroalmeida",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/pedroalmeida",
+      "followers": [
+        {
+          "user_uuid": "1e126eab-8f95-4d2e-8b75-0bfeaa5e7e6c"
+        },
+        {
+          "user_uuid": "f7d3b1b1-43eb-4459-8e4f-54b69db1d10f"
+        },
+        {
+          "user_uuid": "a0c3f5f5-05b5-4b17-9569-79f5e7a119ff"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "user_uuid": "",
+      "username": "Carolina Costa",
+      "handle": "carolinacosta",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/carolinacosta",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/carolinacosta",
+      "followers": [
+        {
+          "user_uuid": "6630f4b6-7fb0-45e6-aa42-117a9a2ff7e1"
+        },
+        {
+          "user_uuid": "67b659db-c0eb-4b46-931e-4a73dd14d1a6"
+        },
+        {
+          "user_uuid": "4a643685-2086-4bc1-a1cc-cf64f43a57ed"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "user_uuid": "",
+      "username": "Fernando Sousa",
+      "handle": "fernandosousa",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/fernandosousa",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/fernandosousa",
+      "followers": [
+        {
+          "user_uuid": "e6155d7d-bfeb-4c7c-8a02-654176a9d4c7"
+        },
+        {
+          "user_uuid": "75961c56-97f2-46df-81ab-2b672b71e7a1"
+        },
+        {
+          "user_uuid": "308c8ad6-0068-43d5-8f71-60f83a5be503"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "user_uuid": "",
+      "username": "Juliana Lima",
+      "handle": "julianalima",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/julianalima",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/julianalima",
+      "followers": [
+        {
+          "user_uuid": "4a5f2c26-3f94-4a89-9125-c155ed8b4f1a"
+        },
+        {
+          "user_uuid": "e9d4a33f-d047-4d1b-a501-cb8018a06edf"
+        },
+        {
+          "user_uuid": "ef27df06-2db9-4584-b0c0-8dd1e5af0467"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "user_uuid": "",
+      "username": "Gabriel Castro",
+      "handle": "gabrielcastro",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/gabrielcastro",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/gabrielcastro",
+      "followers": [
+        {
+          "user_uuid": "5b1e3a16-4e7a-4b8f-b51c-2a9522da04d5"
+        },
+        {
+          "user_uuid": "8ae8902b-df56-468d-a434-68b6e217153b"
+        },
+        {
+          "user_uuid": "251b7e22-0aa9-47cc-92b0-687ad2a1ad63"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "user_uuid": "",
+      "username": "Sandra Oliveira",
+      "handle": "sandraoliveira",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/sandraoliveira",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/sandraoliveira",
+      "followers": [
+        {
+          "user_uuid": "cf8a4520-38ef-4e66-932d-7f524c7a2f8b"
+        },
+        {
+          "user_uuid": "a5f17e6b-055f-4e9b-95fc-99c3f88be855"
+        },
+        {
+          "user_uuid": "d84b6db3-47f6-4ea1-b5e2-8304169a4cda"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "user_uuid": "",
+      "username": "Ricardo Santos",
+      "handle": "ricardosantos",
+      "bio": "Aqui uma descrição da bio",
+      "link": "https://www.linktr.ee/ricardosantos",
+      "img": "https://fakeimg.pl/300/",
+      "instagram_url": "https://www.instagram.com/ricardosantos",
+      "followers": [
+        {
+          "user_uuid": "fc7c0e37-c76f-404a-a504-6b8f01903db5"
+        },
+        {
+          "user_uuid": "6a6d8990-6195-4c8c-9fc6-6d245700c445"
+        },
+        {
+          "user_uuid": "3df2390b-49cc-4fd6-b47f-7b1a54271e96"
+        }
+      ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "threads": [
+    {
+      "id": 1,
+      "timestamp": "Wed Jul 12 2023 11:13:08 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello world (of threads)",
+      "likes": [
+        {
+          "uuid": "7d63b079-25db-4014-8f1f-91d3fd20fc17"
+        },
+        {
+          "uuid": "2309c9be-e1bd-4e42-bafc-847486338f6c"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Wed Jul 10 2023 21:05:08 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
+      "thread_to": "2309c9be-e1bd-4e42-bafc-847486338f6c",
+      "reply_to": 4,
+      "text": "Hello world (of threads)",
+      "likes": [
+        {
+          "uuid": "7d63b079-25db-4014-8f1f-91d3fd20fc17"
+        },
+        {
+          "uuid": "2309c9be-e1bd-4e42-bafc-847486338f6c"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "timestamp": "Wed Jun 10 2023 11:13:08 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
+      "thread_to": "cd595347-9fef-4216-8ae2-bdd74f065dc7",
+      "reply_to": 1,
+      "text": "Second threads",
+      "likes": []
+    },
+    {
+      "id": 4,
+      "timestamp": "Wed May 28 2023 02:43:08 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Agora vai",
+      "likes": []
+    }
+  ]
 }
