@@ -65,7 +65,7 @@
     },
     {
       "id": 4,
-      "user_uuid": "",
+      "user_uuid": "4c140e38-3e29-4e76-b320-7873d55b4a32",
       "username": "Ana Oliveira",
       "handle": "anaoliveira",
       "bio": "Aqui uma descrição da bio",
@@ -86,7 +86,7 @@
     },
     {
       "id": 5,
-      "user_uuid": "",
+      "user_uuid": "9c8f8c6b-82da-4b99-a651-4a5268925269",
       "username": "Pedro Almeida",
       "handle": "pedroalmeida",
       "bio": "Aqui uma descrição da bio",
@@ -107,7 +107,7 @@
     },
     {
       "id": 6,
-      "user_uuid": "",
+      "user_uuid": "692f64d5-51d4-4e42-906b-43e5987a1392",
       "username": "Carolina Costa",
       "handle": "carolinacosta",
       "bio": "Aqui uma descrição da bio",
@@ -128,7 +128,7 @@
     },
     {
       "id": 7,
-      "user_uuid": "",
+      "user_uuid": "ebd4f55d-9c54-4376-8ef0-91d9e2e77e81",
       "username": "Fernando Sousa",
       "handle": "fernandosousa",
       "bio": "Aqui uma descrição da bio",
@@ -149,7 +149,7 @@
     },
     {
       "id": 8,
-      "user_uuid": "",
+      "user_uuid": "5b3ad9ab-dfc1-4e0c-8b53-4e932b87e5a4",
       "username": "Juliana Lima",
       "handle": "julianalima",
       "bio": "Aqui uma descrição da bio",
@@ -170,7 +170,7 @@
     },
     {
       "id": 9,
-      "user_uuid": "",
+      "user_uuid": "78a88da0-9cb5-4715-80f1-fad18d369f6a",
       "username": "Gabriel Castro",
       "handle": "gabrielcastro",
       "bio": "Aqui uma descrição da bio",
@@ -191,7 +191,7 @@
     },
     {
       "id": 10,
-      "user_uuid": "",
+      "user_uuid": "b89d6c59-5519-4157-89e0-872c8f0d21d3",
       "username": "Sandra Oliveira",
       "handle": "sandraoliveira",
       "bio": "Aqui uma descrição da bio",
@@ -212,7 +212,7 @@
     },
     {
       "id": 11,
-      "user_uuid": "",
+      "user_uuid": "5a107c57-5319-446a-8997-ef13dc7b3c3a",
       "username": "Ricardo Santos",
       "handle": "ricardosantos",
       "bio": "Aqui uma descrição da bio",
@@ -232,6 +232,7 @@
       ]
     }
   ],
+  
   "threads": [
     {
       "id": 1,
@@ -239,7 +240,7 @@
       "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
       "thread_to": null,
       "reply_to": null,
-      "text": "Hello world (of threads)",
+      "text": "O saco de feijão custa 8,00 reais",
       "likes": [
         {
           "uuid": "7d63b079-25db-4014-8f1f-91d3fd20fc17"
@@ -271,7 +272,7 @@
       "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
       "thread_to": "cd595347-9fef-4216-8ae2-bdd74f065dc7",
       "reply_to": 1,
-      "text": "Second threads",
+      "text": "Second threads, is so cool!",
       "likes": []
     },
     {
@@ -282,6 +283,70 @@
       "reply_to": null,
       "text": "Agora vai",
       "likes": []
+    },
+    {
+      "id": 5,
+      "timestamp": "Thu Jul 13 2023 10:30:00 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "7d63b079-25db-4014-8f1f-91d3fd20fc17",
+      "thread_to": "2309c9be-e1bd-4e42-bafc-847486338f6c",
+      "reply_to": 2,
+      "text": "Another thread",
+      "likes": [
+        {
+          "uuid": "7d63b079-25db-4014-8f1f-91d3fd20fc17"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "timestamp": "Thu Jul 13 2023 11:30:00 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "2309c9be-e1bd-4e42-bafc-847486338f6c",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Third thread",
+      "likes": [
+        {
+          "uuid": "2309c9be-e1bd-4e42-bafc-847486338f6c"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "timestamp": "Thu Jul 13 2023 12:30:00 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "cd595347-9fef-4216-8ae2-bdd74f065dc7",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Fourth thread",
+      "likes": []
+    },
+    {
+      "id": 8,
+      "timestamp": "Thu Jul 13 2023 13:30:00 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "7d63b079-25db-4014-8f1f-91d3fd20fc17",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Fifth thread",
+      "likes": []
+    },
+    {
+      "id": 9,
+      "timestamp": "Thu Jul 13 2023 14:30:00 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "cd595347-9fef-4216-8ae2-bdd74f065dc7",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Sixth thread",
+      "likes": []
+    },
+    {
+      "id": 10,
+      "timestamp": "Thu Jul 13 2023 15:30:00 GMT-0300 (Brasilia Standard Time)",
+      "thread_from": "aa2902ac-b250-48bd-af47-0b8dcc141b8d",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Seventh thread",
+      "likes": []
     }
   ]
+
+
 }
