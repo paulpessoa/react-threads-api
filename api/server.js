@@ -1,5 +1,3 @@
-
-
 // See https://github.com/typicode/json-server#module
 const jsonServer = require('json-server');
 const server = jsonServer.create();
@@ -10,7 +8,7 @@ server.use(middlewares);
 
 // Adicione a seguinte linha para permitir o uso de variáveis de ambiente na Vercel
 // const apiKey = process.env.API_KEY;
-const apiKey = "123456"
+const apiKey = "123456";
 
 // Middleware para verificar a chave da API
 server.use((req, res, next) => {
@@ -37,9 +35,8 @@ server.get('/threads', (req, res) => {
 
 server.use(router);
 
-const port = process.env.PORT || 3000;
-server.listen(port, () => {
-  console.log(`JSON Server is running on port ${port}`);
+server.listen(() => {
+  console.log(`JSON Server is running.`);
 });
 
 // Exporte a API do servidor
