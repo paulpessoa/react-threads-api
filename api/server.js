@@ -4,6 +4,8 @@ const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
+server.use(cors()); // Adicione esta linha para permitir todas as origens
+
 server.use(middlewares);
 
 // Adicione a seguinte linha para permitir o uso de variáveis de ambiente na Vercel
@@ -38,6 +40,10 @@ server.use(router);
 const port = process.env.PORT || 3000;
 server.listen(port, () => {
   console.log(`JSON Server is running on port ${port}`);
+});
+
+server.listen(3000, () => {
+  console.log('JSON Server is running');
 });
 
 // Exporte a API do servidor
