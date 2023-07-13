@@ -23,12 +23,12 @@ server.use((req, res, next) => {
 });
 
 // Adicione as rotas personalizadas antes do uso do router
-server.get('/users', (req, res) => {
+server.get('/api/users', (req, res) => {
   const users = router.db.get('users').value();
   res.json(users);
 });
 
-server.get('/threads', (req, res) => {
+server.get('/api/threads', (req, res) => {
   const threads = router.db.get('threads').value();
   res.json(threads);
 });
